@@ -1,0 +1,32 @@
+body{
+background-color: lightgoldenrodyellow;
+}
+h1 {
+font-size: 30px;
+color: teal;
+}
+h2 {
+font-size: 20px;
+color: hotpink;
+}
+
+h2 {
+color: green;
+}
+
+/*Class or selectors*/
+.big{
+font-size: 60px;
+}
+.uppercase{
+text-transform: uppercase;
+}
+.big.uppercase{
+color:navy;
+}
+
+/* This is more specific so it takes precedence. 
+Only applies to span elements that are also within an h1*/
+h1 span{
+color:violet;
+}
